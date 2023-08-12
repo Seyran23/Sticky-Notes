@@ -3,8 +3,8 @@ The Sticky Notes Web App is a simple and interactive web application that allows
 
 
 ##Features
--Create new sticky notes with customizable text content.
--Customize the appearance of each note by changing its background color and applying random rotations.
--Notes scale up when hovered over, providing a visually pleasing effect.
--Interactive controls for adding and closing notes.
--User-friendly interface with responsive design for various screen sizes.
+- Create new sticky notes with customizable text content.
+- Customize the appearance of each note by changing its background color and applying random rotations.
+- Notes scale up when hovered over, providing a visually pleasing effect.
+- Interactive controls for adding and closing notes.
+- User-friendly interface with responsive design for various screen sizes.
