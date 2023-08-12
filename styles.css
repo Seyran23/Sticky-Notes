@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(248, 214, 169);
+    font-family: 'Tsukimi Rounded', sans-serif;
+    
+    position: relative;
+}
+
+.add_note_container {
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.btn {    
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+.add_note_btn:hover {
+    background-color: rgba(4, 188, 4, 0.592);
+}
+
+.close_note_btn:hover {
+    background-color: rgba(234, 27, 27, 0.63);
+}
+
+textarea {
+    width: 300px;
+    height: 275px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.wrapper {    
+    height: 100vh;
+    margin: 0 30px;
+}
+
+.create_note_btn {
+    color: white;
+    background-color: rgb(6, 135, 6);  
+
+    margin-left: 30px;  
+    padding: 11px 23px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: box-shadow .3s;
+}
+
+.create_note_btn:hover {
+    background-color: rgb(4, 98, 4);
+}
+
+.active {
+    background-color: rgb(6, 135, 6);
+    box-shadow: 0 0 4px 2px rgb(2, 128, 2);
+    transition-duration: 0.2s;
+}
+
+.notes_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 50px;
+}
+
+.note {
+    width: 250px;
+    height: 250px;
+
+    padding: 30px;
+
+    border: none;
+    box-shadow: 0 6px 15px 2px  rgba(63, 63, 63, 0.656);
+
+
+    font-size: 25px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: transform 0.2s;
+}
+
+
+.note:hover {
+    transform: scale(1.1) !important;
+}
+
+

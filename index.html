@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+
+</head>
+<body>
+    <div class="add_note_container hidden">
+        <div class="btn_container">
+            <button class="btn add_note_btn"><img src="./img/check-circle.svg" alt=""></button>
+            <button class="btn close_note_btn"><img src="./img/x-circle.svg" alt=""></button>
+        </div>
+        <textarea name="writeNote" id="writeNote" cols="30" rows="10" placeholder="Write Note..."></textarea>
+    </div>
+    <div class="wrapper">
+        <button class="create_note_btn">Create Note</button>
+        <div class="notes_container"></div>
+    </div>
+    
+</body>
+</html>
